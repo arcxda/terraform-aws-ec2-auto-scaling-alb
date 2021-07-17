@@ -7,6 +7,8 @@
 - Cuando se coloque la direccion DNS del ALB en un navegador se podra observar si la carga se esta distribuyendo entre las instancias, mediante la impresion del hostname en la pagina web de la siguiente forma
 - Para testear que nuestro auto scaling group funciona se realizan pruebas de estres de CPU ingresando a las instancias que se crean de acuerdo a la cantidad deseada que se especifican en los archivos de configuracion de terraform, y asi ver si se provisionan y disminuyen la cantidad de Instancias EC2 de acuerdo a la demanda.
 
+## Arquitectura
+
 La Arquitectura esta diseñada e implementada en 3 AZs y consta de los siguientes recursos:
 
 - 1 Internet Gateway
